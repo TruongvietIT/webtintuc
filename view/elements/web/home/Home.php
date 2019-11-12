@@ -7,8 +7,9 @@ class Home extends Element
     {
         $this->setTemplatePath('view/templates/web/home/')
             ->setTemplateFile('Home');
-//
-//        $newsModel 	= Context::getInstance()->getFront()->getModel('NewsModel');
-//        $this->assign('data', $newsModel->getHomeCategoryNews());
+
+        $newsModel 	= Context::getInstance()->getFront()->getModel('NewsModel');
+        $newsNew = $newsModel->getNewNews();
+        $this->assign('newsNew', $newsNew);
     }
 }

@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+.news_title {
+    color: #212121;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.new-item {
+    margin-top: 10px;
+}
+
+.paging a.active, .paging a.current {
+    background-color: #F88C00;
+}

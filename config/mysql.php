@@ -5,7 +5,7 @@ return array(
         'dbhost' => 'localhost',
         'dbuser' => 'root',
         'dbpassword' => '',
-        'dbname' => 'fw_webtintuc',
+        'dbname' => 'vn_bantinbuoisang',
         'dbport' => '3306'),
     'server' => array(
         'dbhost' => 'localhost',

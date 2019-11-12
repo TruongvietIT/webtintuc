@@ -2,8 +2,9 @@
 <?php echo $this->renderElement('Header'); ?>
     <div class="main container">
         <div class="row">
-            <?php echo $this->renderElement('Home'); ?>
+            <?php echo $this->renderElement('Category'); ?>
             <?php echo $this->renderElement('NavBar'); ?>
         </div>
     </div>
 <?php echo $this->renderElement('Footer'); ?>
+

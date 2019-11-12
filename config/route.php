@@ -14,12 +14,13 @@ return array(
         'tin-moi-nhat(?:/trang-<page:\d+$>)?' => 'Newest',
         'tag/<slug:[\w\d-]+>(?:/trang-<page:\d+>)?' => 'Tag',
         '<slug:[a-z\d-]+>(?:/trang-<page:\d+$>)?' => 'Category',
+
         'default' => 'Notfound'
     ),
     'mobile' => array('/' => 'Home',
         'ajax' => 'Ajax',
         'tag/<slug:[\w\d-]+>(?:/trang-<page:\d+>)?' => 'Tag',
-        '<slug:[\w\d-]+>-<id:\d+>.html' => 'NewsDetail',
+        '<slug:[\w\d-]+>-<id:\d+>.html' => 'NewsDetailLayout',
         'default' => 'Home'
     )
 );

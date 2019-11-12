@@ -1,0 +1,17 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+AddDefaultCharset utf-8
+
+
+<FilesMatch "\.(htaccess|htpasswd|ini|phps|fla|psd|log|sh)$">
+ Order deny,allow
+ Deny from all
+</FilesMatch>
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php
+
+

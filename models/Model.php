@@ -34,15 +34,17 @@ class Model
         return $this;
     }
 
+
+    // note
     public function getCacheData($key)
     {
         //return null;
         //$result =  $this->_cacheActive ? unserialize( $this->_cache->get( $this->_prefix. $key )) : null;
-        $result = $this->_cacheActive ? $this->_cache->get($this->_prefix . $key) : null;
+//        $result = $this->_cacheActive ? $this->_cache->get($this->_prefix . $key) : null;
         //if ($result === false){
         //echo '<!--'. $key. '-->';
         //}
-        return $result;
+//        return $result;
     }
 
     public function setCacheData($key, $data, $ttl = 1000000)

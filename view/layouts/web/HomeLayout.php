@@ -7,12 +7,15 @@ class HomeLayout extends Layout
     {
 
         $this->setTemplatePath('view/templates/web/')
-        ->setTemplateFile('Home');
+            ->setTemplateFile('Home');
 //
+        $this->registerElement('Top', 'view/elements/web/common/');
+
         $this->registerElement('Header', 'view/elements/web/common/');
-        $this->registerElement('NavBar', 'view/elements/web/common/');
-        $this->registerElement('NavBar', 'view/elements/web/common/');
+
         $this->registerElement('Home', 'view/elements/web/home/');
+
+        $this->registerElement('NavBar', 'view/elements/web/common/');
 
         $this->registerElement('Footer', 'view/elements/web/common/');
 

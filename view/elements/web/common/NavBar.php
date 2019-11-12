@@ -7,8 +7,11 @@ class NavBar extends Element
     {
         $this->setTemplatePath('view/templates/web/common/')
             ->setTemplateFile('NavBar');
+//
+        $newsModel = Context::getInstance()->getFront()->getModel('NewsModel');
+//
+        $mostRead = $newsModel->getNews(array('status' => 1, 'order_by' => 'visit_count'), 1, 10);
+        $this->assign('data', $mostRead);
 
-        $cateModel = Context::getInstance()->getFront()->getModel("CategoryModel");
-        $this->assign('categories', $cateModel);
     }
 }
