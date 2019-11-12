@@ -2,36 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8a291c4-0af7-4949-a214-97a8e9f5eae8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/NewsModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reset.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/elements/web/common/Top.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/elements/web/news/NewsDetail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/layouts/web/CategoryLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/layouts/web/NewsDetailLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/layouts/web/NotfoundLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/templates/web/Category.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/templates/web/NewsDetail.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/templates/web/category/Category.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/templates/web/common/Top.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/templates/web/news/NewsDetail.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mysql.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mysql.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/CategoryModel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/elements/web/category/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/elements/web/category/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/elements/web/common/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/elements/web/common/Header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/elements/web/common/NavBar.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/elements/web/common/NavBar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/elements/web/home/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/elements/web/home/Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/layouts/web/HomeLayout.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/layouts/web/HomeLayout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/templates/web/Home.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/templates/web/Home.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/templates/web/common/Header.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/templates/web/common/Header.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/templates/web/common/NavBar.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/templates/web/common/NavBar.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/templates/web/home/Home.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/templates/web/home/Home.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/NewsModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/NewsModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/templates/web/common/Footer.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/templates/web/common/Footer.tpl.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,23 +36,23 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dbdemo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\JOC\webtintuc\dbdemo" />
+      <recent name="C:\xampp\htdocs\JOC\webtintuc" />
+      <recent name="C:\xampp\htdocs\JOC\webtintuc\view\templates\web\home" />
+      <recent name="C:\xampp\htdocs\JOC\webtintuc\view\templates\common" />
+      <recent name="C:\xampp\htdocs\JOC\webtintuc\view\layouts\web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\JOC\webtintuc\view\templates\web\news" />
       <recent name="C:\xampp\htdocs\JOC\webtintuc\view\elements\web" />
       <recent name="C:\xampp\htdocs\JOC\webtintuc\view\templates\web" />
       <recent name="C:\xampp\htdocs\JOC\webtintuc\view\elements" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\JOC\webtintuc" />
-      <recent name="C:\xampp\htdocs\JOC\webtintuc\view\templates\web\home" />
-      <recent name="C:\xampp\htdocs\JOC\webtintuc\view\templates\common" />
-      <recent name="C:\xampp\htdocs\JOC\webtintuc\view\layouts\web" />
-      <recent name="C:\xampp\htdocs\JOC\webtintuc\view\templates\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,8 +82,16 @@
       <workItem from="1573174521526" duration="24864000" />
       <workItem from="1573400923459" duration="17774000" />
       <workItem from="1573452221576" duration="20914000" />
-      <workItem from="1573520331383" duration="4877000" />
+      <workItem from="1573520331383" duration="7250000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1573526842282</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573526842282</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,5 +109,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

@@ -56,16 +56,12 @@ class NewsModel extends Model
 												        INNER JOIN news_event AS ne on ne.event_id = ner.event_id' : '') .
             (isset($options['position_id']) ? ' INNER JOIN news_position_rel AS npr ON npr.news_id = n.news_id ' : '') .
             ' WHERE 1=1 ' .
-            (isset($options['tag_like']) && !empty($options['tag_like']) ? ' AND n.news_tag_slug LIKE :tag_like ' : '') .
             (isset($options['news_id']) ? ' AND n.news_id = :news_id ' : '') .
             (isset($options['news_ids']) ? ' AND n.news_id IN (' . $options['news_ids'] . ') ' : '') .
             (isset($options['position_id']) ? ' AND npr.position_id = :position_id ' : '') .
-            (isset($options['event_id']) ? ' AND ner.event_id = :event_id ' : '') .
-            (isset($options['is_video']) ? ' AND n.is_video = :is_video ' : '') .
             (isset($options['status']) ? ' AND n.news_status = :status ' : '') .
             (isset($options['category_id']) ? ' AND n.category_id = :category_id ' : '') .
             (isset($options['others']) && !empty($options['others']) ? ' AND n.news_id NOT IN (' . $options['others'] . ') ' : '') .
-            (isset($options['2day']) ? ' AND n.news_published_date >= ' . (strtotime(date('Y-m-d', time() - 2 * 86400))) : '') .
             //to check mode preview or not
             (isset($options['published_date']) ? ' AND n.news_published_date >= ' . $options['published_date'] . ' AND n.news_published_date <= ' . (intval($options['published_date']) + 86400) : '') .
             (!isset($options['mode']) ? ' AND n.news_published_date <= ' . (time() + 60) : '') .
